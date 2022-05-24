@@ -1,0 +1,145 @@
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+
+.evento{
+    background-image: url("./imagenes_integrador_front/hawaii.jpg");
+    height:100vh;
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+    align-content:left;
+    }
+.navfooter{
+    margin: 0px;
+}
+#texto{
+    width: 50% !important;
+       }
+@media(max-width:600px){
+    
+    #contenedor{
+            flex-direction: column;
+    }
+    #texto{
+        width: 100% !important;
+           }
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #18b66f;
+    border-color: #198754;
+}
+
+.container-fluid{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+.bg-secondary {
+    --bs-bg-opacity: 1;
+    background-color: #272335!important;
+}
+a {
+    text-decoration: none;
+        padding: 10px;
+}
+
+a:hover{
+    color: #18b66f;
+
+}
+
+
+.btn-warning{
+    border: 25px;
+}
+
+.btn {
+    
+    border-radius: 100px;}
+
+    .mb-3 {
+        margin-top: 20px;
+        margin-bottom: 1rem!important;
+    }
+
+.orador{
+    font-weight: bold;
+
+
+}
+.bg-secondary {
+    --bs-bg-opacity: 1;
+    background-color: #3f3562;
+}
+#nav-end{
+    background-color: #092c4d!important;
+}
+
+.img-codo{
+    width:50px; height:24px;
+}
+
+.navbar-collapse   {
+    justify-content: right!important;
+    flex-basis: auto;
+}
+
+.h1-evento{
+    align-content: flex-end; margin-left: 60%;
+}
+.evento-article{
+    width: 40%; align-content: flex-end; margin-left: 60%;
+}
+
+#button-evento{color: white; display:inline;}
+
+.container-oradores{
+    text-align: center
+}
+
+
+#success-mb-4{
+
+  width: 90%;
+    background: #4bb90b;
+}
+
+.honolulu{
+    object-fit: cover; height: 500px
+}
+#div-honolulu{
+    width: 50%;
+}
+.form-control{
+    width: 102%
+}
+
+#totalAPagar{
+    text-align: left;
+    background-color: rgb(177, 201, 253);
+    padding: 1rem 0rem 1rem 0rem;
+    color:rgb(207, 207, 212);
+  }
+
+  @media (max-width: 600px){
+    #nombre-apellido-form{
+            display: block;
+    }
+    
+    #comprarTickets{
+      width: 100%;
+    }
+  }
+
+  #texto-form{
+    text-align: center;
+    justify-content: center;
+    margin: 2rem;
+  }
